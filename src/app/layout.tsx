@@ -12,7 +12,7 @@ export default function RootLayout({
       <body className={`antialiased bg-gray-100`}>
         <WishlistProvider>
           <Header />
-          <main className='max-w-screen-xl mx-auto '>{children}</main>
+          <main className='max-w-screen-xl mx-auto'>{children}</main>
         </WishlistProvider>
       </body>
     </html>

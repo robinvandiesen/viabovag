@@ -5,5 +5,5 @@ import { WishlistButtonProps } from './WishlistButton.types';
 
 export const WishlistButton = ({ id }: WishlistButtonProps) => {
   const { toggleWishlist } = useWishlist();
-  return <button onClick={() => toggleWishlist(id)}>Fav</button>;
+  return <button className='btn btn-blue bg-gray-100 p-4' onClick={() => toggleWishlist(id)}>Add to wishlist</button>;
 };

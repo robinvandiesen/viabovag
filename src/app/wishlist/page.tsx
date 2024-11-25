@@ -3,7 +3,7 @@ import { cookies } from 'next/headers';
 import { promises as fs } from 'fs';
 import React from 'react';
 
-const WhishlistPage = async () => {
+const WishlistPage = async () => {
   const cookieStore = await cookies();
   const wishlist = cookieStore.get('wishlist');
   const vehicleList = wishlist?.value.split(',');
@@ -47,4 +47,4 @@ const WhishlistPage = async () => {
   );
 };
 
-export default WhishlistPage;
+export default WishlistPage;
