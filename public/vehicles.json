@@ -1,0 +1,89 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "brand": "Volkswagen",
+      "model": "Golf",
+      "year": 2020,
+      "price": 22500,
+      "mileage": 15000,
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "location": "Amsterdam",
+      "features": [
+        "Air Conditioning",
+        "Cruise Control",
+        "Bluetooth Connectivity",
+        "Navigation System"
+      ]
+    },
+    {
+      "id": "2",
+      "brand": "Tesla",
+      "model": "Model 3",
+      "year": 2022,
+      "price": 45000,
+      "mileage": 5000,
+      "fuelType": "Electric",
+      "transmission": "Automatic",
+      "location": "Rotterdam",
+      "features": [
+        "Autopilot",
+        "Panoramic Roof",
+        "Heated Seats",
+        "Wireless Charging"
+      ]
+    },
+    {
+      "id": "3",
+      "brand": "Ford",
+      "model": "Focus",
+      "year": 2018,
+      "price": 14000,
+      "mileage": 45000,
+      "fuelType": "Diesel",
+      "transmission": "Manual",
+      "location": "Utrecht",
+      "features": [
+        "Rear Parking Sensors",
+        "LED Headlights",
+        "Keyless Entry",
+        "Rain-Sensing Wipers"
+      ]
+    },
+    {
+      "id": "4",
+      "brand": "BMW",
+      "model": "X5",
+      "year": 2019,
+      "price": 55000,
+      "mileage": 25000,
+      "fuelType": "Hybrid",
+      "transmission": "Automatic",
+      "location": "The Hague",
+      "features": [
+        "All-Wheel Drive",
+        "Leather Seats",
+        "Surround View Camera",
+        "Adaptive Cruise Control"
+      ]
+    },
+    {
+      "id": "5",
+      "brand": "Audi",
+      "model": "A4",
+      "year": 2021,
+      "price": 32000,
+      "mileage": 20000,
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "location": "Eindhoven",
+      "features": [
+        "Virtual Cockpit",
+        "Sunroof",
+        "Sport Seats",
+        "Automatic Climate Control"
+      ]
+    }
+  ]
+}
