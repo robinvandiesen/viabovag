@@ -1,3 +1,4 @@
+import { WishlistButton } from "../WhishlistButton";
 import { VehicleProps } from "./Vehicle.types";
 
 export const Vehicle = ({id, brand, model, year, price, mileage, fuelType, transmission, location, features}: VehicleProps) => {
@@ -28,5 +29,6 @@ export const Vehicle = ({id, brand, model, year, price, mileage, fuelType, trans
         ))}
       </ul>
     </div>
+    <WishlistButton id={id} />
   </div>)
 }

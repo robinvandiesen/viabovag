@@ -1,6 +1,10 @@
+'use client';
+
+import { useWishlist } from '@/context/Wishlist/WishlistContext';
 import Link from 'next/link';
 
 export const Header = () => {
+  const {wishlistCount} = useWishlist();
   return (
     <header className='sticky top-0 z-[100] bg-black'>
       <nav className='flex justify-between items-center h-16 mx-auto max-w-screen-xl px-6  py-1'>
@@ -28,7 +32,7 @@ export const Header = () => {
         </Link>
         <Link
           className='relative order-[30] justify-self-end flex-shrink-0'
-          href='/whishlist'
+          href='/wishlist'
         >
           <span className='flex items-center justify-center h-6 w-6 relative'>
             <svg
@@ -43,7 +47,7 @@ export const Header = () => {
             <span
               className='text-black font-semibold relative -translate-y-[1px] '
               data-testid='header-favorite-count'
-            >1</span>
+            >{wishlistCount}</span>
           </span>
         </Link>
       </nav>

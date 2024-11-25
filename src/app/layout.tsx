@@ -1,6 +1,6 @@
-
 import { Header } from '@/components/Header';
 import './globals.css';
+import { WishlistProvider } from '@/context/Wishlist/WishlistContext';
 
 export default function RootLayout({
   children,
@@ -10,8 +10,10 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={`antialiased bg-gray-100`}>
-        <Header />
-        <main className='max-w-screen-xl mx-auto '>{children}</main>
+        <WishlistProvider>
+          <Header />
+          <main className='max-w-screen-xl mx-auto '>{children}</main>
+        </WishlistProvider>
       </body>
     </html>
   );
